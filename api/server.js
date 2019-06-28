@@ -1,5 +1,8 @@
 const express = require("express");
 
+const People = require('../people/peopleModel.js')
+
+const server = express();
 // Routes go here
 
 server.use(express.json());
